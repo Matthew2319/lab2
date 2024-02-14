@@ -77,4 +77,8 @@ function Side(){
 </div>;
 }
 
+
+
+
+
 export default Side;
