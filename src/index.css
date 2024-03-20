@@ -1,91 +1,87 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: url("https://stardewvalleywiki.com/mediawiki/extensions/StardewValley/images/stardewbackground.png") no-repeat fixed center center / cover;
+  background: url("https://stardewvalleywiki.com/mediawiki/extensions/StardewValley/images/stardewbackground.png")
+    no-repeat fixed center center / cover;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-
 /* Header */
-.header{
+.header {
   margin-top: -5px;
-        margin-left: 160px;
-        height: 5em;
+  margin-left: 160px;
+  height: 5em;
 }
-.header nav{
+.header nav {
   padding: 20px;
   display: flex;
-  align-items:center;
+  align-items: center;
   max-width: 600px;
   margin: 0 auto;
-
 }
 
-.header button{
-  color:#A7D7F9;
+.header button {
+  color: #a7d7f9;
   font-family: sans-serif;
   border: none;
   font-size: 14px;
   font-weight: 480;
   background-color: #edc74b00;
- 
 }
 
-.header button:hover{
+.header button:hover {
   cursor: pointer;
   text-decoration: underline;
 }
 
-.navbar{
+.navbar {
   position: absolute;
   top: -7px;
   right: 5px;
 }
-.navbar button{
+.navbar button {
   margin-top: -5px;
-        margin-left: 1px;
-        height: 5px;
-        padding: 3px;
-        font-size: 12px;
-        
+  margin-left: 1px;
+  height: 5px;
+  padding: 3px;
+  font-size: 12px;
 }
 
-.navbar2{
+.navbar2 {
   margin-top: -5px;
   height: 5px;
   position: absolute;
   top: 38px;
   right: 920px;
 }
-.btn2{
-  margin-top: -5px;
-    height: 5px;
-}
-
-
-.navbar3{
+.btn2 {
   margin-top: -5px;
   height: 5px;
-  position:absolute;
+}
+
+.navbar3 {
+  margin-top: -5px;
+  height: 5px;
+  position: absolute;
   top: 38px;
   right: 15px;
   padding: 30px;
 }
-.btn3{
+.btn3 {
   margin-top: -5px;
-    height: 5px;
-    padding: 7px;
+  height: 5px;
+  padding: 7px;
 }
-.search{
-  background-color: rgba(255,255,255,0.5);
+.search {
+  background-color: rgba(255, 255, 255, 0.5);
   border: 1px solid #a2a9b1;
   border-width: 0.8px;
   border-radius: 2px;
@@ -93,11 +89,10 @@ code {
   height: 23px;
 }
 
-
 /* Main */
-.body{
-  background-color: rgba(209,248,255,0.67);
-  border: 1px solid #A7D7F9;
+.body {
+  background-color: rgba(209, 248, 255, 0.67);
+  border: 1px solid #a7d7f9;
   border: 0.667px;
   padding: 16px;
   margin-top: 2px;
@@ -107,26 +102,26 @@ code {
 
   min-height: 500px;
 }
-.body h1{
+.body h1 {
   font-size: 30px;
   font-weight: normal;
   text-align: left;
-  font-family: 'Open Sans',sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.8em;
   border-bottom: 0.667px;
-  margin-bottom: 7.200px;
+  margin-bottom: 7.2px;
   padding: 0px;
   line-height: 1.3;
   border-bottom: 1px solid #a2a9b1;
 }
 
-.Giffy{
+.Giffy {
   margin: 0 0 0.5em 0.5em;
   clear: right;
   float: right;
 }
 
-.body p{
+.body p {
   margin: 0.5em 0;
   line-height: 1.6;
   font-family: sans-serif;
@@ -134,7 +129,7 @@ code {
   text-align: left;
 }
 
-.p{
+.p {
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
@@ -143,9 +138,9 @@ code {
   margin: 0.4em 0 0.5em 0;
 }
 
-.body h2{
+.body h2 {
   text-align: left;
-  font-family: 'Open Sans',sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin-top: 1em;
   font-size: 1.5em;
   margin-bottom: 0.25em;
@@ -155,9 +150,9 @@ code {
   border-bottom: 1px solid #a2a9b1;
 }
 
-.body ul{
-  margin-top: 4.200px;
-  margin-left: 22.400px;
+.body ul {
+  margin-top: 4.2px;
+  margin-left: 22.4px;
   text-align: left;
   display: block;
   list-style-type: disc;
@@ -168,194 +163,195 @@ code {
   padding-inline-start: 40px;
 }
 
-.ul{
+.ul {
   align-items: end;
-    padding: 1em;
+  padding: 1em;
 }
 
-.body a{
+.body a {
   text-decoration: none;
-    color: #0645ad;
-    background: none;
+  color: #0645ad;
+  background: none;
 }
 
-.body a:hover{
-    cursor: pointer;
-    text-decoration: underline;
+.body a:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
-.catlinks{
+.catlinks {
   text-align: left;
-  border: 1px solid #84AEEC;
-  background-color: rgba(199,242,254,0.53);
+  border: 1px solid #84aeec;
+  background-color: rgba(199, 242, 254, 0.53);
   padding: 5px;
   margin-top: 1em;
   clear: both;
 }
 
 /* Bottom */
-.footers{
-  background: rgba(0,0,0,0.8) none repeat scroll 0% 0%;
-    width: 100%;
-    padding: 0px;
-    margin-top: 20px;
-    margin-bottom: -17px;
-    margin-left: auto;
-    margin-right: auto;
-    color: #C2C8CF;
-    font-family: sans-serif;
-    direction: ltr;
-    display: block;
-    float: left;
+.footers {
+  background: rgba(0, 0, 0, 0.8) none repeat scroll 0% 0%;
+  width: 100%;
+  padding: 0px;
+  margin-top: 20px;
+  margin-bottom: -17px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #c2c8cf;
+  font-family: sans-serif;
+  direction: ltr;
+  display: block;
+  float: left;
 }
 
-.footers ul{
+.footers ul {
   padding-left: 190px;
   padding-right: 15px;
-  text-align:left;
+  text-align: left;
 }
 
-.footers li{
+.footers li {
   margin: 0;
   padding: 0.5em 0;
   font-size: 0.75em;
   line-height: 1.4;
 }
 
-.info{
+.info {
   list-style-type: none;
   line-height: 1.4;
   padding-left: 15px;
 }
-.info a{
+.info a {
   color: white;
-  
 }
 
 .places {
   margin-bottom: 8px;
 }
-.places li{
+.places li {
   list-style-type: none;
   display: inline-block;
   padding: 8px;
 }
-.places a{
-  color:white;
+.places a {
+  color: white;
 }
 
-.icons{
+.icons {
   float: right;
   float: inline-end;
   padding-left: 15px;
   padding-right: 15px;
 }
 
-.icons li{
+.icons li {
   list-style-type: none;
   display: inline-block;
   padding: 2px;
-    margin-left: 0.5em;
-    line-height: 2;
-    text-align: right;
+  margin-left: 0.5em;
+  line-height: 2;
+  text-align: right;
 }
 
 /* Side */
 
-.logo{
+.logo {
   margin-top: -146px;
   margin-bottom: 1px;
 }
-.logo a{
+.logo a {
   background-position: center center;
-    background-repeat: no-repeat;
-    display: block;
-    width: 160px;
-    height: 160px;
-    text-decoration: none;
+  background-repeat: no-repeat;
+  display: block;
+  width: 160px;
+  height: 160px;
+  text-decoration: none;
 }
 
-.side{
-    border: 4px solid transparent;
-    border-color: brown;
-    background-color: rgba(209,248,255,0.67);
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
+.side {
+  border: 4px solid transparent;
+  border-color: brown;
+  background-color: rgba(209, 248, 255, 0.67);
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
 
-    position: absolute;
-    top: -3px;
-    right: 534.667px;
-    left: -12px;
-    bottom: -366.333px;
+  position: absolute;
+  top: -3px;
+  right: 534.667px;
+  left: -12px;
+  bottom: -366.333px;
 
-    margin-top: 176px;
+  margin-top: 176px;
 
-    padding-bottom: 15px;
+  padding-bottom: 15px;
 
-    width: 10em;
-
-    
+  width: 10em;
 }
 
-.navi{
+.navi {
   margin-top: -10px;
-  margin-left: -11.200px;
-  margin-right: 19.600px;
+  margin-left: -11.2px;
+  margin-right: 19.6px;
 
-    padding: 0.25em 0;
-    font-size: 0.75em;
-    line-height: 1.125em;
-    word-wrap: break-word;
+  padding: 0.25em 0;
+  font-size: 0.75em;
+  line-height: 1.125em;
+  word-wrap: break-word;
 }
 
-.navi li{
+.navi li {
   list-style-type: none;
   text-align: left;
   direction: ltr;
   font-size: inherit;
   font-family: sans-serif;
   padding-bottom: 7px;
-  
 }
 
-.navi a{
+.navi a {
   text-decoration: none;
 }
 
-.navi a:hover{
+.navi a:hover {
   cursor: pointer;
   text-decoration: underline;
 }
 
-
-.OLinks{
+.OLinks {
   margin-top: -10px;
-  margin-left: -11.200px;
-  margin-right: 19.600px;
+  margin-left: -11.2px;
+  margin-right: 19.6px;
 
-    padding: 0.25em 0;
-    font-size: 0.75em;
-    line-height: 1.125em;
-    word-wrap: break-word;
+  padding: 0.25em 0;
+  font-size: 0.75em;
+  line-height: 1.125em;
+  word-wrap: break-word;
 }
-.OLinks h3{
+.OLinks h3 {
   display: block;
-    background-image: './images/portal-separator.png';
-    background-image: linear-gradient(to right,rgba(200,204,209,0) 0,#c8ccd1 33%,#c8ccd1 66%,rgba(200,204,209,0) 100%);
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    background-size: 100% 1px;
-    color: #54595d;
-    margin: 0.5em 0 0 0.66666667em;
-    border: 0;
-    padding: 0.25em 0;
-    font-size: 12px;
-    font-family: sans-serif;
-    font-weight: normal;
-    cursor: default;
+  background-image: "./images/portal-separator.png";
+  background-image: linear-gradient(
+    to right,
+    rgba(200, 204, 209, 0) 0,
+    #c8ccd1 33%,
+    #c8ccd1 66%,
+    rgba(200, 204, 209, 0) 100%
+  );
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: 100% 1px;
+  color: #54595d;
+  margin: 0.5em 0 0 0.66666667em;
+  border: 0;
+  padding: 0.25em 0;
+  font-size: 12px;
+  font-family: sans-serif;
+  font-weight: normal;
+  cursor: default;
 }
 
-.Olinkse li{
+.Olinkse li {
   list-style-type: none;
   text-align: left;
   direction: ltr;
@@ -364,44 +360,49 @@ code {
   padding-bottom: 7px;
 }
 
-.Olinkse a{
+.Olinkse a {
   text-decoration: none;
 }
 
-.Olinkse a:hover{
+.Olinkse a:hover {
   cursor: pointer;
   text-decoration: underline;
 }
 
-.Troll{
+.Troll {
   margin-top: -10px;
-  margin-left: -11.200px;
-  margin-right: 19.600px;
+  margin-left: -11.2px;
+  margin-right: 19.6px;
 
-    padding: 0.25em 0;
-    font-size: 0.75em;
-    line-height: 1.125em;
-    word-wrap: break-word;
+  padding: 0.25em 0;
+  font-size: 0.75em;
+  line-height: 1.125em;
+  word-wrap: break-word;
 }
-.Troll h3{
+.Troll h3 {
   display: block;
-    background-image: './images/portal-separator.png';
-    background-image: linear-gradient(to right,rgba(200,204,209,0) 0,#c8ccd1 33%,#c8ccd1 66%,rgba(200,204,209,0) 100%);
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    background-size: 100% 1px;
-    color: #54595d;
-    margin: 0.5em 0 0 0.66666667em;
-    border: 0;
-    padding: 0.25em 0;
-    font-size: 12px;
-    font-family: sans-serif;
-    font-weight: normal;
-    cursor: default;
-
+  background-image: "./images/portal-separator.png";
+  background-image: linear-gradient(
+    to right,
+    rgba(200, 204, 209, 0) 0,
+    #c8ccd1 33%,
+    #c8ccd1 66%,
+    rgba(200, 204, 209, 0) 100%
+  );
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: 100% 1px;
+  color: #54595d;
+  margin: 0.5em 0 0 0.66666667em;
+  border: 0;
+  padding: 0.25em 0;
+  font-size: 12px;
+  font-family: sans-serif;
+  font-weight: normal;
+  cursor: default;
 }
 
-.Tools li{
+.Tools li {
   list-style-type: none;
   text-align: left;
   direction: ltr;
@@ -410,44 +411,49 @@ code {
   padding-bottom: 7px;
 }
 
-.Tools a{
+.Tools a {
   text-decoration: none;
 }
 
-.Tools a:hover{
+.Tools a:hover {
   cursor: pointer;
   text-decoration: underline;
 }
 
-.lang{
+.lang {
   margin-top: -10px;
-  margin-left: -11.200px;
-  margin-right: 19.600px;
+  margin-left: -11.2px;
+  margin-right: 19.6px;
 
-    padding: 0.25em 0;
-    font-size: 0.75em;
-    line-height: 1.125em;
-    word-wrap: break-word;
+  padding: 0.25em 0;
+  font-size: 0.75em;
+  line-height: 1.125em;
+  word-wrap: break-word;
 }
-.lang h3{
+.lang h3 {
   display: block;
-    background-image: './images/portal-separator.png';
-    background-image: linear-gradient(to right,rgba(200,204,209,0) 0,#c8ccd1 33%,#c8ccd1 66%,rgba(200,204,209,0) 100%);
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    background-size: 100% 1px;
-    color: #54595d;
-    margin: 0.5em 0 0 0.66666667em;
-    border: 0;
-    padding: 0.25em 0;
-    font-size: 12px;
-    font-family: sans-serif;
-    font-weight: normal;
-    cursor: default;
-
+  background-image: "./images/portal-separator.png";
+  background-image: linear-gradient(
+    to right,
+    rgba(200, 204, 209, 0) 0,
+    #c8ccd1 33%,
+    #c8ccd1 66%,
+    rgba(200, 204, 209, 0) 100%
+  );
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: 100% 1px;
+  color: #54595d;
+  margin: 0.5em 0 0 0.66666667em;
+  border: 0;
+  padding: 0.25em 0;
+  font-size: 12px;
+  font-family: sans-serif;
+  font-weight: normal;
+  cursor: default;
 }
 
-.langu li{
+.langu li {
   list-style-type: none;
   text-align: left;
   direction: ltr;
@@ -456,11 +462,11 @@ code {
   padding-bottom: 7px;
 }
 
-.langu a{
+.langu a {
   text-decoration: none;
 }
 
-.langu a:hover{
+.langu a:hover {
   cursor: pointer;
   text-decoration: underline;
 }
