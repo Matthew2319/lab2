@@ -8,11 +8,32 @@ body {
   background: url("https://stardewvalleywiki.com/mediawiki/extensions/StardewValley/images/stardewbackground.png") no-repeat fixed center center / cover;
 }
 
+  /* // style={{
+    //   background: isToggleOn
+    //     ? 'url("https://stardewvalleywiki.com/mediawiki/extensions/StardewValley/images/stardewbackground.png")'
+    //     : 'url("https://i.redd.it/amfzanxbvw621.png")',
+    //   backgroundSize: 'cover',
+    //   backgroundPosition: 'center',
+    //   backgroundAttachment:'fixed',
+    //   backgroundRepeat:false,
+    //   height:'1360px',
+    //   width:'1224px'
+    // }}
+} */
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
+.btn1{
+  color:#A7D7F9;
+  font-family: sans-serif;
+  border: none;
+  font-size: 14px;
+  font-weight: 480;
+  background-color: #edc74b00;
+}
 
 /* Header */
 .header{
@@ -118,6 +139,12 @@ code {
   padding: 0px;
   line-height: 1.3;
   border-bottom: 1px solid #a2a9b1;
+}
+
+.Piffy{
+  margin: 0 0 0.5em 0.5em;
+  clear: right;
+  float: right;
 }
 
 .Giffy{
